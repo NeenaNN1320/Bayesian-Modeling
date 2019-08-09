@@ -1,6 +1,8 @@
 ---
 title: "Predicting - Motor Insurance Claim frequency"
-author: "Neena"
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
