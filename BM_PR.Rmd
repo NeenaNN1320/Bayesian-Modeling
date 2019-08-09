@@ -1,6 +1,7 @@
 ---
 title: "Predicting - Motor Insurance Claim frequency"
 author: "Neena"
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
