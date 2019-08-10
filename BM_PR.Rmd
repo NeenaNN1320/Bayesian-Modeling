@@ -89,7 +89,6 @@ p[1:5]
 #prop.table(table(traintpl$ClaimNb))
 ```
 
-
 From  previous studies we know that as drivers age increases they are more prone to accidents hence and similarly as the power of vehicle increases the likelihood of accidents increase. Its also know that as the exposure( number of years since insurance) increases the chances of making a claim would increase. Using these knowledge about the motor claims we set few priors and draw from the sample.
 ```{r , results="hide"}
 myprior1 <- c(prior(normal(0, 0.01), class="Intercept"),
