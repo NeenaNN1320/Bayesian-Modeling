@@ -215,9 +215,6 @@ loo2 <- loo(post3)
 loo_compare(loo1 , loo2)
 ```
 
-```{python}
-
-```
 
 ```{r}
 loo_model_weights(post2 , post3)
